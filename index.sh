@@ -13,6 +13,8 @@ _() {
 
   cd "${YEAR}" || exit
   git init
+  echo "Iam in 1989s" \
+    >README.md
   git add .
   GIT_AUTHOR_DATE="${YEAR}-01-01T18:00:00" \
     GIT_COMMITTER_DATE="${YEAR}-01-01T18:00:00" \
