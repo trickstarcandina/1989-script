@@ -26,7 +26,7 @@ _() {
   rm -rf "${YEAR}"
 
   echo
-  echo "Cool, check your profile now: https://github.com/${USERNAME}"
+  echo "Check your profile in: https://github.com/${USERNAME}"
 } && _
 
 unset -f _
